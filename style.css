@@ -1,0 +1,137 @@
+body{
+	background: linear-gradient(black, gray, darkgray);
+	/* background-repeat: no-repeat; */ 
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+	font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: 'Courier New', Courier, monospace;
+  }
+  #menu_list{
+	background-color:#f5c71a;
+	color:black; 
+	width: 300px;
+	border-style: solid;
+	border-radius: 50px;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: 'Courier New', Courier, monospace;
+  }
+
+  #add_toppings{
+	padding-left:30px;
+	width:250px;
+	height:50px;
+	border-style: solid;
+	color:white;
+	font-size: 15px;
+	font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  #add_item {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	line-height: 20px;
+	width: 250px;
+	height: 50px;
+	color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: 100%;
+	opacity: 1;
+	color: white;
+ }
+
+#im1{
+	width:100px;
+	height: 80px;
+}
+.active{
+	font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+	height: 250px;
+	width: 250px;
+	border-radius: 1000px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.my_btn{
+	width: 250px;
+}
+#myimg{
+	width: 50%;
+	height: 380px;
+	border-style: solid;
+	border-color: black;
+	border-width: 4px;
+	border-radius: 28px;
+	float: none;
+}

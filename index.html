@@ -1,0 +1,69 @@
+<html><head>
+    <title>Pizzeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#">Pizzeria</a>
+        <div class="topnav-right">
+         <a href="#viewblock">View Menu</a>
+         <a href="#addTopings">Suggest Topping</a>
+        </div>
+    </div>
+
+    <div class="row" id="viewblock">
+        <div class="img_div"> 
+            <img class="img-responsive logo" src="data:image/jpeg;base64,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">
+        </div>
+        <div class="menu_div">
+            <button id="menu_list" onclick="getmenu()">Show Menu</button>
+           <div id="display_menu"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="newRow" id="addTopings">
+        <div class="block1">
+            <input id="add_item" placeholder="Type here to add toppings?"> <br><br>
+			<button class= "btn btn-success my_btn" onclick="add_top()">Add Suggestion</button><br><br>
+            <button id="add_toppings" class="btn btn-success" onclick="add_item()">Show Pizza</button>
+        </div>
+		
+        <div class="block2">
+            <div id="display_addedmenu">
+            </div>
+        </div>
+        
+    </div>
+<center>
+    <div>
+        <img class="img-responsive" id="myimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBky1GALsZyRz7nTssYLFzzIEPmrYmjOA7w&usqp=CAU">
+    </div>
+</center>
+
+
+</body></html>
